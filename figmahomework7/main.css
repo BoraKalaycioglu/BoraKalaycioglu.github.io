@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(reset.css);
+
+
+.biggy-burge-info {
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 127px;
+    letter-spacing: -1.575px;
+    text-align: left;
+  }
+
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+
+  }
+}
+
+img {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: linear-gradient(225deg, #A54353 0%, #E73535 100%);
+}
+
+.biggy-burge-container {
+  width: 100%;
+  height: 100%;
+  background: url("assets/images/biggy-burger.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.cart-btn{
+  text-decoration: none;
+  border: 1px solid #fff;
+  display: inline-block;
+  padding-right: 47px;
+  border-radius: 49px;
+}
+
+
+.cart {
+  width: 98px;
+  height: 98px;
+  background:  #FFC107;
+  display: block;
+  border-radius: 100%;
+  padding: 34px 0 0 34px;
+}
+
+.price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.40;
+  text-align: center;
+  color: #fff;
+  margin-left: 24px;
+}
+
